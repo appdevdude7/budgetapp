@@ -71,6 +71,7 @@ function App() {
     }
   };
   // clear all items
+  //new change
   const clearItems = () => {
     setExpenses([]);
     handleAlert({type: "danger", text: "All items deleted"});
